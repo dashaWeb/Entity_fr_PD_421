@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Ado_net_connected_mode", "01_Ado_net_connected_mode\01_Ado_net_connected_mode.csproj", "{CD14E340-D59A-43B2-8CC4-CAA26E24E1C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Ado_net_connected_mode", "01_Ado_net_connected_mode\01_Ado_net_connected_mode.csproj", "{CD14E340-D59A-43B2-8CC4-CAA26E24E1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_params", "02_params\02_params.csproj", "{D809DF5C-3723-41D8-B597-73FAEDA54A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Data_access_layer", "03_Data_access_layer\03_Data_access_layer.csproj", "{77BE39FF-7680-4AF9-9753-7E210F3F4321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CD14E340-D59A-43B2-8CC4-CAA26E24E1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD14E340-D59A-43B2-8CC4-CAA26E24E1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD14E340-D59A-43B2-8CC4-CAA26E24E1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D809DF5C-3723-41D8-B597-73FAEDA54A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D809DF5C-3723-41D8-B597-73FAEDA54A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D809DF5C-3723-41D8-B597-73FAEDA54A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D809DF5C-3723-41D8-B597-73FAEDA54A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BE39FF-7680-4AF9-9753-7E210F3F4321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BE39FF-7680-4AF9-9753-7E210F3F4321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BE39FF-7680-4AF9-9753-7E210F3F4321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BE39FF-7680-4AF9-9753-7E210F3F4321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

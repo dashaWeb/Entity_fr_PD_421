@@ -36,7 +36,7 @@ internal class Program
         //Console.WriteLine($"Result avg price :: {Math.Round(res,2)}");
 
         //ExecuteReader - виконує команду select та повертає результат у вигляді DbDataReader
-        string cmdText = "select* from Students";
+        string cmdText = "select* from Students;";
         SqlCommand command = new SqlCommand(cmdText, connection);
         SqlDataReader reader = command.ExecuteReader();
 
