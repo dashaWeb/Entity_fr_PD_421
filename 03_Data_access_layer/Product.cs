@@ -8,6 +8,7 @@ namespace _03_Data_access_layer
 {
     public class Product
     {
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }
